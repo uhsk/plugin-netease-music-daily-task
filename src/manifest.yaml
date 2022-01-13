@@ -1,0 +1,17 @@
+name: 网易云音乐每日签到
+description: 网易云音乐每日签到
+icon: assets/icon.jpeg
+bundle: js/bundle.js
+version: 0.0.1
+assistant: 1
+upgrade: https://github.com/uhsk/plugin-netease-music-daily-task
+issues: https://github.com/uhsk/plugin-netease-music-daily-task/issues
+authors:
+    - sollyu
+permissions:
+    - accessibility
+depends:
+    -   index: -1
+        name: plugin-recents-clear
+        repo: https://github.com/uhsk/plugin-recents-clear
+        version: 0.0.1
